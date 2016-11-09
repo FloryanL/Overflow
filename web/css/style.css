@@ -11,6 +11,13 @@ header, section {
     height: 100vh;
     text-align: center;
 }
+button {
+    height: 80px;
+    width: 318px;
+    border-radius: 15vh;
+    border: 1px solid white;
+    font-size: 18px;
+}
 .heado {
     padding: 0vh;
 }
