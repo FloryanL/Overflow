@@ -7,6 +7,10 @@
     font-family: 'source_sans_pro';
     src: url('../font/SourceSansPro-Regular.otf') format('woff2');
 }
+@font-face {
+    font-family: 'source_sans_prolight';
+    src: url('../font/SourceSansPro-Light.otf') format('woff2');
+}
 body {
     color: white;
     margin: -3.5vh 0;
@@ -43,8 +47,12 @@ button:hover {
 }
 .centerblock {
     height: 30vh;
+    padding: 18vh 0;
+    margin: 18vh auto;
 }
 h1 {
+    font-size: 45px;
+    letter-spacing: 10px;
     text-transform: uppercase;
     font-family: 'source_sans_prosemibold';
 }
@@ -53,7 +61,11 @@ h2 {
     text-transform: uppercase;
 }
 .up {
+    opacity: 0.8;
+    font-size: 21px;
+    letter-spacing: 3px;
     text-transform: uppercase;
+    font-family: 'source_sans_prolight';
 }
 .overflow {
     background-image: url(../img/banner.svg);
