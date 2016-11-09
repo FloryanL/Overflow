@@ -85,6 +85,14 @@ h2 {
     text-transform: uppercase;
     font-family: 'source_sans_prolight';
 }
+.creative, .creative a {
+    font-size: 20px;
+    color: white;
+}
+.creative a:hover {
+    color: white;
+    text-decoration: none;
+}
 .block1 {
     margin: 0 28vw;
     padding: 12vh 0;
