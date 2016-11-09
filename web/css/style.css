@@ -28,9 +28,11 @@ header, section {
 button {
     height: 80px;
     width: 318px;
+    margin-top: 7vh;
     color: #3a3939;
     font-size: 22px;
     border-radius: 15vh;
+    letter-spacing: 1px;
     border: 1px solid white;
     font-family: 'source_sans_pro';
 }
@@ -52,6 +54,7 @@ button:hover {
 }
 h1 {
     font-size: 45px;
+    margin-top: 0vh;
     letter-spacing: 10px;
     text-transform: uppercase;
     font-family: 'source_sans_prosemibold';
@@ -71,9 +74,20 @@ h2 {
     background-image: url(../img/banner.svg);
     background-position: center bottom;
     background-color: #35B88F;
-    background-size: cover;
+    background-size: 125%;
     margin-top: -3.1vh;
-    height: 85vh;
+    height: 86.5vh;
+}
+.Tover {
+    color: white;
+    font-size: 35px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    font-family: 'source_sans_prolight';
+}
+.block1 {
+    margin: 0 28vw;
+    padding: 12vh 0;
 }
 .block2 {
     margin: 23vh auto;
