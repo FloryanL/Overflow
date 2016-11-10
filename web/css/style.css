@@ -88,9 +88,12 @@ h2 {
 .creative, .creative a {
     font-size: 20px;
     color: white;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(255,255,255, .4);
 }
 .creative a:hover {
     color: white;
+    border-bottom: none;
     text-decoration: none;
 }
 .block1 {
@@ -102,11 +105,18 @@ h2 {
     height: 61vh;
     width: 70vw;
 }
+.textmarg {
+    padding: 18vh 10vh;
+}
 .blocktext {
     width: 35vw;
     height: 61vh;
     color: #3a3939;
     background-color: white;
+}
+.lorem {
+    font-family: 'source_sans_prolight';
+    font-size: 25px;
 }
 .text1 {
     float: right;
